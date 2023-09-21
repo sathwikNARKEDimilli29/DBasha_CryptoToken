@@ -4,7 +4,7 @@ function Header() {
   return (
     <header>
       <div className="container mt-4">
-        <div className="card bg-primary text-white">
+        <div className="card bg-danger text-white">
           <div className="card-body">
             <h1 className="card-title">
               <span role="img" aria-label="tap emoji">

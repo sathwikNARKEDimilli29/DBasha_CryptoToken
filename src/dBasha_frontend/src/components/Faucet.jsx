@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { dBasha_backend } from "../../../declarations/dBasha_backend";
 
 function Faucet() {
+  const [isDisabled, setIsDisabled] = useState(false);
+  const [btnText, setBtnText] = useState("Gimme gimmie 🤑🤑");
   async function handleClick(event) {
-    // Handle the button click event here
+    setIsDisabled(true);
+    let res = await dBasha_backend.payOut();
+    setBtnText(res);
   }
 
   return (
@@ -24,8 +29,9 @@ function Faucet() {
               id="btn-payout"
               className="btn btn-primary"
               onClick={handleClick}
+              disabled={isDisabled}
             >
-              Claim Now
+              {btnText}
             </button>
           </div>
         </div>
