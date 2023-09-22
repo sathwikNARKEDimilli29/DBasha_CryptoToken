@@ -2,6 +2,9 @@
 
 Creating our own cryptocurrency token, called DBash Coin, and developing a dedicated wallet for it is an exciting endeavor in the world of blockchain technology. DBash Coin would provide users with the ability to mint their tokens securely and efficiently. The wallet, on the other hand, would offer essential functions such as transferring DBash Coins between users and even featuring a faucet system for distributing tokens to new users or for promotional purposes. This comprehensive ecosystem not only fosters a sense of ownership but also enables smooth and decentralized peer-to-peer transactions, making DBash Coin a promising addition to the digital currency landscape.
 
+![image](https://github.com/sathwikNARKEDimilli29/dBasha_CryptoToken/assets/97584810/08697a7a-52a7-4985-81da-5399c854ac65)
+
+
 # Check your Balance
 
 1. Find out your principal id:
